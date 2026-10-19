@@ -26,8 +26,8 @@ catalogs:
       specifier: ^0.30.21
       version: 0.30.21
     source-map-js:
-      specifier: ^1.2.1
-      version: 1.2.1
+      specifier: ^1.2.2
+      version: 1.2.2
     vite:
       specifier: ^8.2.0
       version: 8.2.0
@@ -242,8 +242,8 @@ importers:
         specifier: ^0.56.0
         version: 0.56.0
       source-map-js:
-        specifier: ^1.2.1
-        version: 1.2.1
+        specifier: ^1.2.2
+        version: 1.2.2
 
   packages-private/vite-debug:
     devDependencies:
@@ -273,7 +273,7 @@ importers:
         version: 2.0.2
       source-map-js:
         specifier: 'catalog:'
-        version: 1.2.1
+        version: 1.2.2
     devDependencies:
       '@babel/types':
         specifier: 'catalog:'
@@ -316,7 +316,7 @@ importers:
         version: 8.5.23
       source-map-js:
         specifier: 'catalog:'
-        version: 1.2.1
+        version: 1.2.2
     devDependencies:
       '@babel/types':
         specifier: 'catalog:'
@@ -449,7 +449,7 @@ importers:
         version: 2.0.2
       source-map-js:
         specifier: 'catalog:'
-        version: 1.2.1
+        version: 1.2.2
       vue:
         specifier: workspace:*
         version: link:../vue
@@ -2954,6 +2954,10 @@ packages:
     resolution: {integrity: sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==}
     engines: {node: '>=0.10.0'}
 
+  source-map-js@1.2.2:
+    resolution: {integrity: sha512-KGj/8Y43x35aZVDtt+J4mK1hoLGHULMYfSkODJNQjNDC3oW1PqPoxMwo0pLUsWM/UEGzON/NxeHywEfNXNP3Vw==}
+    engines: {node: '>=0.10.0'}
+
   source-map@0.6.1:
     resolution: {integrity: sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==}
     engines: {node: '>=0.10.0'}
@@ -4024,7 +4028,7 @@ snapshots:
       '@typescript-eslint/types': 8.65.0
       '@typescript-eslint/visitor-keys': 8.65.0
       debug: 4.4.3(supports-color@7.2.0)
-      minimatch: 10.2.5
+      minimatch: 10.2.6
       semver: 7.8.5
       tinyglobby: 0.2.17
       ts-api-utils: 2.5.0(typescript@6.0.3)
@@ -5266,7 +5270,7 @@ snapshots:
     dependencies:
       nanoid: 3.3.16
       picocolors: 1.1.1
-      source-map-js: 1.2.1
+      source-map-js: 1.2.2
 
   postcss@8.5.25:
     dependencies:
@@ -5595,6 +5599,8 @@ snapshots:
       totalist: 3.0.1
 
   source-map-js@1.2.1: {}
+
+  source-map-js@1.2.2: {}
 
   source-map@0.6.1: {}
 
